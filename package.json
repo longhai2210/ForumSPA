@@ -13,8 +13,11 @@
     "frontend": "npm run start --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
-  "author": "John ahn",
+  "author": "Long Hai",
   "license": "ISC",
+  "engines": {
+    "node": "10.15.3"
+  },
   "dependencies": {
     "async": "^3.2.0",
     "bcrypt": "^3.0.6",
